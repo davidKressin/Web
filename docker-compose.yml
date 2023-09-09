@@ -1,0 +1,11 @@
+version: '3'
+services:
+  node_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:3002"
+    volumes:
+      - C:/Users/david/Desktop/APPS/astrofy:/home/app
+    command: npm start
