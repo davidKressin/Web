@@ -12,9 +12,9 @@ const last_posts = posts.slice(0, 3);
 
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Hola! </div>
+    <div class="text-xl py-1">Hola! 🙋‍♂️</div>
     <div class="text-5xl font-bold">Soy David Kressin</div>
-    <div class="text-3xl py-3 font-bold">Desarrollador de software 💻🙋‍♂️</div>
+    <div class="text-3xl py-3 font-bold">Desarrollador de software 💻 <br/> y estudiante de Ingeniería Comercial.</div>
     <div class="py-2">
       <text class="text-lg">
         Bienvenido a mi sitio web
@@ -61,7 +61,7 @@ const last_posts = posts.slice(0, 3);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/blog/" + post.slug}
+          url={"/Web/blog/" + post.slug}
           target="_self"
           badge={post.data.badge}
         />
@@ -81,7 +81,7 @@ const last_posts = posts.slice(0, 3);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/blog/" + post.slug}
+          url={"/Web/blog/" + post.slug}
           target="_self"
           badge={post.data.badge}
         />
