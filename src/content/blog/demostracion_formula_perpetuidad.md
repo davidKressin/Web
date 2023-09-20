@@ -11,7 +11,7 @@ Este es el <b>Modelo de Gordon.</b>
 
 Para demostrar cómo surge esa fórmula debemos primero saber de dónde viene la formula de la cual deriva:
 <b>El Modelo de los flujos descontados.</b>
-<img src="/valor-acciones.png" width="300"/>
+<img src="/Web/valor-acciones.png" width="300"/>
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UakAFKsMKUE?si=NPtBdQRWDBUoYi5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
