@@ -70,4 +70,6 @@ email.sendEmail();
 auth.logout();</code></pre></div></p><p id="f7749f07-9f74-4656-8400-f290fa511fc9" class="">
 
 </p><p id="2c2a1425-5f84-42a4-abf8-2fa05d3babf4" class=""><strong>O - Principio de Abierto/Cerrado (Open/Closed Principle, OCP)</strong><div class="indented"><p id="05d8cdea-a589-4d70-bb6c-408e17d22789" class="">
-</p></div></p></div></article></body></html>
+</p></div></p></div></article></body>
+
+
