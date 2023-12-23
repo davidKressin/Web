@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="lofi">
+  <head>
+    <!-- Global Metadata --><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="/favicon.ico">
+<meta name="generator" content="Astro v2.9.3">
+
+<!-- Primary Meta Tags -->
+<title>Principios SOLID</title>
+<meta name="title" content="Principios SOLID">
+<meta name="description" content="Un repaso por estos criterios de desarrollo de software.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://davidkressin.github.io/Web/blog/principios-solid/">
+<meta property="og:title" content="Principios SOLID">
+<meta property="og:description" content="Un repaso por estos criterios de desarrollo de software.">
+<meta property="og:image" content="https://davidkressin.github.io/Web/solid.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://davidkressin.github.io/Web/blog/principios-solid/">
+<meta property="twitter:title" content="Principios SOLID">
+<meta property="twitter:description" content="Un repaso por estos criterios de desarrollo de software.">
+<meta property="twitter:image" content="https://davidkressin.github.io/Web/solid.png">
+  <link rel="stylesheet" href="/Web/_astro/404.0372cbb2.css" />
+<link rel="stylesheet" href="/Web/_astro/_slug_.af480368.css" /></head>
+  <body>
+    <div class="bg-base-100 drawer lg:drawer-open">
+      <input id="my-drawer" type="checkbox" class="drawer-toggle">
+      <div class="drawer-content bg-base-100">
+        <div class="sticky lg:hidden top-0 z-30 flex h-16 w-full justify-center bg-opacity-90 backdrop-blur transition-all duration-100 bg-base-100 text-base-content shadow-sm">
+  <div class="navbar">
+    <div class="navbar-start">
+      <label for="my-drawer" class="btn btn-square btn-ghost">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </label>
+    </div>
+    <div class="navbar-center">
+      <a class="btn btn-ghost normal-case text-xl" href="/Web">David Kressin</a>
+    </div>
+    <div class="navbar-end"></div>
+  </div>
+</div>
+        <div class="md:flex md:justify-center">
+          <main class="p-6 pt-10 lg:max-w-[900px] max-w-[100vw]">
+            
+  <main class="md:flex md:justify-center">
+    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+      <img alt="Principios SOLID" class="w-full mb-6" width="750" height="422" src="/Web/_astro/solid_1C5DYt.webp" loading="lazy" decoding="async">
+      <h1 class="title my-2 text-4xl font-bold">Principios SOLID</h1>
+      <time>Sep 21, 2023</time>
+      <br>
+      
+      
+      <div class="divider my-2"></div>
+      
+    
+    <article id="ff192bb4-e235-4532-99e5-dc7e901ff515" class="page sans">
+        <header>
+            <strong>Índice:</strong>
+            <nav id="1ee078d1-5156-4681-b1d5-af63f2b3682e" class="block-color-gray table_of_contents">
+            <div class="table_of_contents-item table_of_contents-indent-0">
+                <a class="table_of_contents-link" href="#0c455ca6-dcb6-495c-81f2-cb60b02566bf">¿Cuáles son los principios SOLID?</a>
+            </div>
+            <div class="table_of_contents-item table_of_contents-indent-0">
+                <a class="table_of_contents-link" href="#cd1f5094-5667-420e-bf8b-8e51f2913b15">Casos de aplicación:</a>
+            </div>
+            </nav>
+            <p id="2a151e76-47d8-4d5d-b01f-e86452b46b95" class=""></p>
+            <p id="33c0c6e9-c932-4ba5-8f9a-36104c0c2305" class="">Los principios SOLID son un conjunto de cinco principios de diseño de software que promueven la creación de <strong>código limpio</strong>, <strong>mantenible </strong>y <strong>escalable</strong>. Estos principios fueron presentados por Robert C. Martin (también conocido como "<strong>Tío Bob</strong>") en la década del 2000 como una guía para escribir software orientado a objetos de alta calidad</p>
+            <h2 id="0c455ca6-dcb6-495c-81f2-cb60b02566bf" class="">¿Cuáles son los principios SOLID?</h2>
+            <ul id="472a024a-e2e2-4f20-8bce-15939e2438c8" class="bulleted-list"><li style="list-style-type:disc"><strong>S - Principio de Responsabilidad Única (Single Responsibility Principle, SRP):</strong> Este principio establece que una clase debe tener una única responsabilidad y no debe estar sobrecargada con múltiples tareas.</li></ul><ul id="2787d778-3c48-489f-bcf0-bd1936d27a44" class="bulleted-list"><li style="list-style-type:disc"><strong>O - Principio de Abierto/Cerrado (Open/Closed Principle, OCP):</strong> El principio OCP establece que las entidades de software (clases, módulos, etc.) deben estar abiertas para su extensión pero cerradas para su modificación. Esto significa que puedes agregar nuevas funcionalidades sin cambiar el código existente.</li></ul><ul id="9f08dd3c-44e6-4a0a-ab4c-c2216725a929" class="bulleted-list"><li style="list-style-type:disc"><strong>L - Principio de Sustitución de Liskov (Liskov Substitution Principle, LSP):</strong> Este principio se refiere a la capacidad de reemplazar una instancia de una clase base por una instancia de una clase derivada sin afectar la integridad del programa. En otras palabras, las clases derivadas deben ser substituibles por sus clases base sin causar problemas.</li></ul><ul id="c14ae418-daaa-4b57-a12d-f6130aa625d8" class="bulleted-list"><li style="list-style-type:disc"><strong>I - Principio de Segregación de Interfaces (Interface Segregation Principle, ISP):</strong> El principio ISP establece que una clase no debe ser forzada a implementar interfaces que no utiliza. En su lugar, una clase debe implementar interfaces específicas que se ajusten a sus necesidades.</li></ul><ul id="6ac1307d-1b04-417e-b8a5-197b0904d419" class="bulleted-list"><li style="list-style-type:disc"><strong>D - Principio de Inversión de Dependencia (Dependency Inversion Principle, DIP):</strong> El principio DIP dice que las clases de alto nivel no deben depender de las clases de bajo nivel, sino que ambas deben depender de abstracciones. Además, las abstracciones no deben depender de los detalles, sino que los detalles deben depender de las abstracciones.</li></ul><p id="5d5e2be1-90b9-49f6-8718-949df4971a9f" class="">
+</p><h2 id="cd1f5094-5667-420e-bf8b-8e51f2913b15" class="">Casos de aplicación:</h2><p id="10de8038-f15f-4400-8130-df18127b87c7" class="">
+</p><p id="b6bca2ee-ba8b-4d69-a1f2-830447c93c3e" class=""><strong>S - Principio de Responsabilidad Única (Single Responsibility Principle, SRP)</strong></p><div class="indented"><p id="622bec09-d67d-4761-82e5-48c55d5723d9" class="">Tomemos como ejemplo esta clase llama Email que se encarga de enviar un mensaje, entrar y salir de la cuenta.</p>
+<pre id="5c5e55c5-3916-4fe3-9347-499f902d32fa" class="code"><code>
+class Email{
+  sendEmail(){
+    console.log("Enviando email")
+  }
+  login(){
+    console.log("ingresando a la cuenta")
+  }
+  logout(){
+    console.log("saliendo de la cuenta")
+  }
+}
+<p>const email = new Email();
+email.login();
+email.sendEmail();
+email.logout();</p>
+</code><p><code>// console
+“ingresando a la cuenta”
+“Enviando email”
+“saliendo de la cuenta”</code></p></pre><p></p>
+<p id="aba12a46-48e3-4071-bc32-198df85c981a" class="">No cumple con este principio ya que una Clase llamada Email debe ser independiente de la autenticación. Para solucionarlo crearemos otra clase “Authentication” que se encargue del login y logout.</p><pre id="0e464788-eb11-4b90-83e6-ec145ecafd03" class="code"><code>
+class Email{
+    sendEmail(){
+        console.log("Enviando email")
+    }
+}
+class Authentication{
+    login(){
+        console.log("ingresando a la cuenta")
+    }
+    logout(){
+        console.log("saliendo de la cuenta")
+    }
+}
+<p>const email = new Email();
+const auth = new Authentication();</p>
+</code><p><code>auth.login();
+email.sendEmail();
+auth.logout();</code></p></pre></div><p></p><p id="f7749f07-9f74-4656-8400-f290fa511fc9" class=""></p>
+<p></p><p id="2c2a1425-5f84-42a4-abf8-2fa05d3babf4" class=""><strong>O - Principio de Abierto/Cerrado (Open/Closed Principle, OCP)</strong></p><div class="indented"><p id="05d8cdea-a589-4d70-bb6c-408e17d22789" class="">
+</p></div><p></p></header></article>
+
+    </article>
+  </main>
+
+          </main>
+        </div>
+        <footer class="footer footer-center block mb-5 pt-10">
+  <div class="pb-2">
+    &copy; 2023 David Kressin González
+  </div>
+</footer>
+      </div>
+      <div class="drawer-side z-40">
+  <label for="my-drawer" class="drawer-overlay"></label>
+  <aside class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-base-200 text-base-content flex flex-col">
+    <div class="w-fit mx-auto mt-5 mb-6">
+      <a href="/Web/">
+        <div class="avatar transition ease-in-out hover:scale-[102%] m-auto flex justify-center">
+          <div class="w-[8.5rem]">
+            <img class="mask d-block mask-circle mx-auto" alt="Profile image" width="300" height="300" src="/Web/_astro/profile_2eWlRs.webp" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <p class="text-base font-bold">David Kressin González</p>
+      </a>
+    </div>
+    <ul class="menu grow shrink menu-md overflow-y-auto">
+    <li><a class="py-3 text-base" id="home" href="/Web/">Home</a></li>
+    <li><a class="py-3 text-base" id="projects" href="/Web/projects">Proyectos</a></li>
+    <li><a class="py-3 text-base" id="services" href="/Web/services">Servicios</a></li>
+    <!-- <li><a class="py-3 text-base" id="store" href="/store">Tienda</a></li> -->
+    <li><a class="py-3 text-base" id="blog" href="/Web/blog/">Blog</a></li>
+    <!-- <li><a class="py-3 text-base" id="cv" href="/Web/cv">CV</a></li> -->
+    <li>
+        <a class="py-3 text-base" href="mailto:david@garciagonzales.com" target="_blank" referrerpolicy="no-referrer-when-downgrade">Contacto</a>
+    </li>
+</ul>
+
+<script>(function(){const sideBarActiveItemID = undefined;
+const activeClass = "bg-base-300";
+
+const activeItemElem = document.getElementById(sideBarActiveItemID);
+activeItemElem && activeItemElem.classList.add(activeClass);
+})();</script>
+    <div class="block sticky pointer-events-none bottom-10 bg-base-200 justify-center h-12 [mask-image:linear-gradient(transparent,#000000)]">
+</div>
+
+<div class="social-icons px-4 pb-5 pt-1 flex self-center justify-center sticky bottom-0 bg-base-200">
+
+    <a href="https://github.com/davidKressin" target="_blank" class="mx-3" aria-label="Github" title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path>
+        </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/david-kressin/" target="_blank" class="mx-3" aria-label="Linkedin" title="Linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
+        </svg>
+    </a>
+
+    <a href="/rss.xml" target="_blank" class="mx-3" aria-label="RSS Feed" title="RSS Feed">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;"><path d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"></path><path d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"></path><circle cx="6" cy="18" r="2"></circle>
+        </svg>
+    </a>
+</div>
+  </aside>
+</div>
+    </div>
+  </body>
+</html>
